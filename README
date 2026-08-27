@@ -1,0 +1,24 @@
+# APEPE Governance Witness
+
+This public repository contains governance witness records for the private APEPE research repository.
+
+It must not contain:
+- trading strategies
+- source code
+- market datasets
+- private research results
+- PnL details
+- credentials or secrets
+
+It may contain:
+- opaque hashes
+- approval records
+- preregistration seals
+- governance attestations
+- references to private commit SHAs
+
+Private research authority:
+davidrodca28-oss/APEPE
+
+Principal Investigator:
+davidrodca28-oss
