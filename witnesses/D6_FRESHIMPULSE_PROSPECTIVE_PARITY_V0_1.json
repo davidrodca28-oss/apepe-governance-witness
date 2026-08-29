@@ -1,0 +1,41 @@
+{
+  "schema": "APEPE_PUBLIC_WITNESS_V1",
+  "experiment_id": "D6_FRESHIMPULSE_PROSPECTIVE_PARITY_V0_1",
+  "run_class": "TECHNICAL_PARITY_REPRODUCTION",
+  "economic_evidence_eligible": false,
+  "phase": "PRESTART_PROSPECTIVE_SEAL",
+  "d5_merge_sha": "288a28c49817d1adb61f4a2ab180556e54321f9a",
+  "pi_arm": {
+    "marker": "PI_ARM_AUTHORIZATION_D6_PROSPECTIVE_PARITY",
+    "comment_id": 5463747459
+  },
+  "preregistration": {
+    "ref": "PREREGISTRATION_D6_FRESHIMPULSE_PROSPECTIVE_PARITY_V0_1_REV2.md",
+    "sha256": "2978DB098FCABE447C284D038714D89C807E9A0ECB910D21733F6CBD1A5C8FBD"
+  },
+  "capture_protocol": {
+    "ref": "D6_PROSPECTIVE_CAPTURE_PROTOCOL_V0_1_REV2.yaml",
+    "sha256": "B1E674B008FB346DC29761DCE3F9252632BA634B820105017EFF25428647952A"
+  },
+  "t0": {
+    "manifest_ref": "T0_SNAPSHOT_MANIFEST.json",
+    "manifest_sha256": "CFF45EA562154F4FEE0CC2CFDA115F436161DF9C7945BE9552CEBDADCCDE19E4",
+    "capture_start_utc": "2026-08-29T17:24:29.1078814Z",
+    "capture_end_utc": "2026-08-29T17:24:29.6657184Z"
+  },
+  "window": {
+    "status": "NOT_STARTED",
+    "witness_merge_utc": null,
+    "start_utc": null,
+    "end_utc": null,
+    "slot_count": 144,
+    "slot_minutes": 5,
+    "start_rule": "ceil_to_5m(witness_merge_utc + 5 minutes)"
+  },
+  "blind_replication": {
+    "status": "NOT_EXECUTED"
+  },
+  "parity_judgment": {
+    "status": "NOT_EXECUTED"
+  }
+}
