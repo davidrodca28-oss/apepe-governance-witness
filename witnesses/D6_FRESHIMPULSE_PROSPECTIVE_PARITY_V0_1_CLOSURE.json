@@ -1,0 +1,53 @@
+{
+  "schema": "APEPE_PUBLIC_WITNESS_V1",
+  "experiment_id": "D6_FRESHIMPULSE_PROSPECTIVE_PARITY_V0_1",
+  "phase": "FINAL_CLOSURE",
+  "run_class": "TECHNICAL_PARITY_REPRODUCTION",
+  "economic_evidence_eligible": false,
+  "canonical_closure": {
+    "status": "NOT_EVALUATED",
+    "reason": "D6_T1_CAPTURE_WINDOW_MISSED",
+    "cause_classification": "OPERATIONAL_CUSTODY_AND_CLOSEOUT_PREPARATION_FAILURE",
+    "resumable": false
+  },
+  "private_closure": {
+    "repository": "davidrodca28-oss/APEPE",
+    "pr": 8,
+    "head_sha": "65ee25c1cd33cc0e61776e1fd226e001bda867b4",
+    "merge_sha": "6b3fcb8459a645dde31705fee83a6f70611cc90c",
+    "merged_at": "2026-08-30T09:31:54Z",
+    "closure_artifact_ref": "research/d6_freshimpulse_prospective_parity_v0_1/CLOSURE_ADJUDICATION.md",
+    "closure_artifact_sha256": "2FE060AC8853A7358D22CF1DCD90A7FDFD10E9B9E14CAC5BC424B78DDC40471B"
+  },
+  "original_public_seal": {
+    "witness_ref": "witnesses/D6_FRESHIMPULSE_PROSPECTIVE_PARITY_V0_1.json",
+    "witness_sha256": "C622A291EF02AE3EDC8F209E0A504A5DD1004D737FEDA1D164A64A49BE3795C7",
+    "pr": 6,
+    "head_sha": "f38f8d779e39d8b715d21f68c1cf4a86e65f008d",
+    "merge_sha": "f2031bb66d4d44c080dc53cfe9cada183ec6a710",
+    "merged_at": "2026-08-29T17:54:16Z"
+  },
+  "sealed_identities": {
+    "preregistration_sha256": "2978DB098FCABE447C284D038714D89C807E9A0ECB910D21733F6CBD1A5C8FBD",
+    "capture_protocol_sha256": "B1E674B008FB346DC29761DCE3F9252632BA634B820105017EFF25428647952A",
+    "t0_manifest_sha256": "CFF45EA562154F4FEE0CC2CFDA115F436161DF9C7945BE9552CEBDADCCDE19E4"
+  },
+  "t1": {
+    "status": "NOT_CAPTURED",
+    "stop": "D6_T1_CAPTURE_WINDOW_MISSED",
+    "final_slot_complete_at": "2026-08-30T06:00:00Z",
+    "protocol_deadline_utc": "2026-08-30T06:15:00Z",
+    "actual_attempt_utc": "2026-08-30T07:31:13.7255310Z"
+  },
+  "blind_replication": {
+    "status": "NOT_EXECUTED"
+  },
+  "parity_judgment": {
+    "status": "NOT_EVALUATED",
+    "evidence": "NONE"
+  },
+  "economic_evidence": {
+    "status": "NONE"
+  },
+  "post_window_freshimpulse_outputs_eligible": false
+}
